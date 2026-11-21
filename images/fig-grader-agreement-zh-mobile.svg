@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600" role="img" aria-labelledby="t d">
+<title id="t">評分器要先和人工標註比對</title>
+<desc id="d">上方左邊是兩位專家互相比對的一致率，當作基準；右邊是評分器和專家的一致率。下方三種情況：評分器與專家的一致率接近專家之間，算達到基準；專家彼此一致但評分器不一致，回頭修評分準則；專家彼此就不一致，重新想要量的是什麼。一致率要扣除碰巧一致的部分，例如用 Cohen's kappa。</desc>
+<rect width="900" height="1600" fill="#fbfaf7"/>
+<rect x="90" y="60" width="720" height="300" rx="18" fill="#f3f6f4" stroke="#9aa7ad" stroke-width="2"/>
+<circle cx="280" cy="190" r="58" fill="#3d6b8c" stroke="#1d2a33" stroke-width="2"/><text x="280" y="200" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">專家 A</text>
+<circle cx="620" cy="190" r="58" fill="#3d6b8c" stroke="#1d2a33" stroke-width="2"/><text x="620" y="200" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">專家 B</text>
+<line x1="340" y1="190" x2="560" y2="190" stroke="#1d2a33" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="450" y="320" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="middle">專家之間的一致率（基準）</text>
+<text x="450" y="420" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="34" fill="#55626b" font-weight="700" text-anchor="middle">比較</text>
+<rect x="90" y="470" width="720" height="300" rx="18" fill="#f3f6f4" stroke="#9aa7ad" stroke-width="2"/>
+<circle cx="280" cy="600" r="58" fill="#0b5c51" stroke="#1d2a33" stroke-width="2"/><text x="280" y="610" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">評分器</text>
+<circle cx="620" cy="600" r="58" fill="#3d6b8c" stroke="#1d2a33" stroke-width="2"/><text x="620" y="610" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#ffffff" font-weight="700" text-anchor="middle">專家</text>
+<line x1="340" y1="600" x2="560" y2="600" stroke="#1d2a33" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="450" y="730" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="middle">評分器與專家的一致率</text>
+<rect x="60" y="830" width="780" height="180" rx="18" fill="#ffffff" stroke="#9aa7ad" stroke-width="2"/>
+<rect x="60" y="830" width="14" height="180" rx="4" fill="#0b5c51"/>
+<text x="100" y="890" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="start">評分器與專家的一致率</text>
+<text x="100" y="932" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="start">接近專家之間</text>
+<text x="810" y="980" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="32" fill="#0b5c51" font-weight="700" text-anchor="end">達到基準</text>
+<rect x="60" y="1030" width="780" height="180" rx="18" fill="#ffffff" stroke="#9aa7ad" stroke-width="2"/>
+<rect x="60" y="1030" width="14" height="180" rx="4" fill="#b4532a"/>
+<text x="100" y="1090" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="start">專家彼此一致，</text>
+<text x="100" y="1132" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="start">評分器卻不一致</text>
+<text x="810" y="1180" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="32" fill="#b4532a" font-weight="700" text-anchor="end">回頭修評分準則</text>
+<rect x="60" y="1230" width="780" height="180" rx="18" fill="#ffffff" stroke="#9aa7ad" stroke-width="2"/>
+<rect x="60" y="1230" width="14" height="180" rx="4" fill="#b4532a"/>
+<text x="100" y="1290" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="400" text-anchor="start">專家彼此就不一致</text>
+<text x="810" y="1380" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="32" fill="#b4532a" font-weight="700" text-anchor="end">重新想要量的是什麼</text>
+<text x="450" y="1470" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#55626b" font-weight="400" text-anchor="middle">一致率要扣除碰巧一致的部分，</text>
+<text x="450" y="1512" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="28" fill="#55626b" font-weight="400" text-anchor="middle">例如用 Cohen's kappa</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">多輪安全評測的情境產生流程</title>
+<desc id="d">五個步驟由左到右（手機版由上到下）：領域專家寫規格；第一輪固定；另一個 Claude 扮演使用者、受測模型寫助理回應；同一情境跑多次、每次抽不同特徵組合；評分器依評分準則打分，回報全程適當的對話比例。</desc>
+<rect width="1600" height="900" fill="#fbfaf7"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b5c51"/></marker></defs>
+<rect x="31" y="250" width="270" height="300" rx="18" fill="#f3f6f4" stroke="#9aa7ad" stroke-width="2"/>
+<text x="166.0" y="355" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">領域專家寫規格</text>
+<text x="166.0" y="460" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">目標、手法、人設、</text>
+<text x="166.0" y="494" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">情境、語氣</text>
+<line x1="305" y1="400.0" x2="342" y2="400.0" stroke="#0b5c51" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="348" y="250" width="270" height="300" rx="18" fill="#f3f6f4" stroke="#9aa7ad" stroke-width="2"/>
+<text x="483.0" y="355" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">第一輪固定</text>
+<text x="483.0" y="460" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">每次都從</text>
+<text x="483.0" y="494" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">同一句開場</text>
+<line x1="622" y1="400.0" x2="659" y2="400.0" stroke="#0b5c51" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="665" y="250" width="270" height="300" rx="18" fill="#e6f1ee" stroke="#0b5c51" stroke-width="2"/>
+<text x="800.0" y="355" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">另一個 Claude</text>
+<text x="800.0" y="399" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">扮演使用者</text>
+<text x="800.0" y="460" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">受測模型寫</text>
+<text x="800.0" y="494" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">助理的回應</text>
+<line x1="939" y1="400.0" x2="976" y2="400.0" stroke="#0b5c51" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="982" y="250" width="270" height="300" rx="18" fill="#e6f1ee" stroke="#0b5c51" stroke-width="2"/>
+<text x="1117.0" y="355" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">同一情境跑多次</text>
+<text x="1117.0" y="460" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">每次抽不同的</text>
+<text x="1117.0" y="494" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">特徵組合</text>
+<line x1="1256" y1="400.0" x2="1293" y2="400.0" stroke="#0b5c51" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="1299" y="250" width="270" height="300" rx="18" fill="#f3f6f4" stroke="#9aa7ad" stroke-width="2"/>
+<text x="1434.0" y="355" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">評分器</text>
+<text x="1434.0" y="399" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="30" fill="#1d2a33" font-weight="700" text-anchor="middle">依評分準則打分</text>
+<text x="1434.0" y="460" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">回報全程適當的</text>
+<text x="1434.0" y="494" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#55626b" font-weight="400" text-anchor="middle">對話比例</text>
+<path d="M1117.0,580 C1117.0,640 1027.0,630 1027.0,700" fill="none" stroke="#b4532a" stroke-width="3"/>
+<circle cx="1027.0" cy="708" r="9" fill="#b4532a"/>
+<path d="M1117.0,580 C1117.0,640 1087.0,630 1087.0,700" fill="none" stroke="#b4532a" stroke-width="3"/>
+<circle cx="1087.0" cy="708" r="9" fill="#b4532a"/>
+<path d="M1117.0,580 C1117.0,640 1147.0,630 1147.0,700" fill="none" stroke="#b4532a" stroke-width="3"/>
+<circle cx="1147.0" cy="708" r="9" fill="#b4532a"/>
+<path d="M1117.0,580 C1117.0,640 1207.0,630 1207.0,700" fill="none" stroke="#b4532a" stroke-width="3"/>
+<circle cx="1207.0" cy="708" r="9" fill="#b4532a"/>
+<circle cx="1117.0" cy="580" r="9" fill="#b4532a"/>
+<text x="1117.0" y="770" font-family="'PingFang TC','Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24" fill="#b4532a" font-weight="400" text-anchor="middle">從同一個起點分岔成不同對話</text>
+</svg>
